@@ -16,7 +16,7 @@ from io import BytesIO
 sys.path.append('./bot')
 
 REPLY_ENDPOINT = 'https://api.line.me/v2/bot/message/reply'
-ACCESS_TOKEN = '9xnh7OI5VEDUeW+oGmDkD54WN3RyCASbs1vQjNuTn/SSBVGfsNM5TeemHy7mvYf9U2SqGBl2Z6NZTrRF8gC9hMvSVOXRxEzxaVKOsNXEVDTLbBaEtw6A9Hbarfsu9HsbmZyuiCazPu1v2V/STwW/5gdB04t89/1O/w1cDnyilFU='
+ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 HEADER = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + ACCESS_TOKEN
@@ -24,11 +24,11 @@ HEADER = {
 lINE_BOT_API = LineBotApi(ACCESS_TOKEN)
 
 # recuitAPI
-recuitapikey = "b0d655315652cd8b"
+recuitapikey = "YOUR_API_KEY"
 client = pya3rt.TalkClient(recuitapikey)
 
 # docomoAPI
-docomoapikey = '59423436685066322f4d47383554744549764f6c66376a4e4f6e736641553472685763476f37774e777637'
+docomoapikey = 'YOUR_API_KEY'
 
 # Get API_Path
 def __build_url(name, version='v1'):
