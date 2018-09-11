@@ -10,3 +10,6 @@ Make your `API KEY` of docomoAPI and Line Deveropers
 # Usage  
 `$ ngrok https 8000`  
 `$ python manage.py runsrever XXXX`  
+
+## _warning_
+If you run this scripts, you should write `runtime.txt` and `requirements.txt` your version.
